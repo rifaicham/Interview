@@ -1,10 +1,7 @@
 # GDP labs pretest
 
 ## Adduser : corona
-1. ```
-   sudo adduser corona 
-   ```
-   this command reffers to add new user called `corona`
+1. `sudo adduser corona` this command reffers to add new user called `corona`
     <p align="center">
         <img src=assets\adduser1.jpg />
     </p>
