@@ -1,17 +1,17 @@
 # GDP labs pretest
 
 ## Adduser : corona
-1. `sudo adduser corona` this command reffers to add new user called `corona`
+1. `sudo adduser corona` this command reffers to add new user called *corona*
     <p align="center">
         <img src=assets\adduser1.jpg />
     </p>
 
-2. `sudo gpasswd -a corona sudo` this command will add user `corona` to sudo group and then user corona can access root. and to check it use `sudo groups corona`
+2. `sudo gpasswd -a corona sudo` this command will add user *corona* to sudo group and then user corona can access root. and to check it use `sudo groups corona`
     <p align="center">
         <img src=assets\adduser2.jpg />
     </p>
 
-3. `su corona` login to user corona and fill the password with the same password we make before. and command `cd` to get access to directory `/home/corona`
+3. `su corona` login to user corona and fill the password with the same password we make before. and command `cd` to get access to directory */home/corona*
     <p align="center">
         <img src=assets\adduser3.jpg />
     </p>
@@ -26,7 +26,7 @@
         <img src=assets\generatessh1.1.jpg />
     </p>
 
-2. Login to linux server and make directory name .ssh`mkdir .ssh`. dot(.) in .ssh means the folder is hidden. And then command `chmod 700 .ssh` get user permission to read, write, and execute in directory `.ssh` 
+2. Login to linux server and make directory name .ssh `mkdir .ssh`. dot(.) in .ssh means the folder is hidden. And then command `chmod 700 .ssh` get user permission to read, write, and execute in directory `.ssh` 
 3. `nano .ssh/authorized_keys` this command will generate file `authorized_keys` in directory .shh and paste the ssh key that copied before
     <p align="center">
         <img src=assets\generatessh2.jpg />
