@@ -9,10 +9,7 @@
         <img src=assets\adduser1.jpg />
     </p>
 
-2. ```
-   sudo gpasswd -a corona sudo
-   ```
-   this command will add user `corona` to sudo group and then user corona can access root. and to check it use `sudo groups corona`
+2. `sudo gpasswd -a corona sudo` this command will add user `corona` to sudo group and then user corona can access root. and to check it use `sudo groups corona`
     <p align="center">
         <img src=assets\adduser2.jpg />
     </p>
